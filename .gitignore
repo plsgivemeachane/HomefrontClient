@@ -1,0 +1,33 @@
+# Build output
+/bin/
+/reobf/
+/temp/
+/lib/
+eclipse/*/bin/
+eclipse/*/target/
+
+# Game files and run data (Minecraft jars, libraries, assets, saves, crash logs)
+/jars/
+/logs/
+*.log
+
+# Eclipse: keep project files, drop the workspace and the client's run folder
+eclipse/.metadata/
+eclipse/Client/*
+!eclipse/Client/.classpath
+!eclipse/Client/.project
+!eclipse/Client/.settings/
+
+# IDE user state
+.idea/workspace.xml
+**/.idea/workspace.xml
+*.iml~
+
+# Python bytecode from MCP scripts
+*.pyc
+__pycache__/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
